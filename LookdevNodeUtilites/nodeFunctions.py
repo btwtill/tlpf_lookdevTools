@@ -1,3 +1,4 @@
+import maya.cmds
 #function to create a color constant and connect it to any aiSurface shader in a selection
 
 def colorConstantToSelectionSurfaceShader(selectionList, name = "CombinedColorConstant"):
